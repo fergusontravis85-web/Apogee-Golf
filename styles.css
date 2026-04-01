@@ -14,20 +14,16 @@
 }
 
 body {
-  margin: 0;
-body{
   margin:0;
-  font-family:Inter;
+  color:white;
+  font-family: "Inter", sans-serif;
 
   background:
-    radial-gradient(circle at 20% 20%, rgba(201,138,74,0.15), transparent 30%),
-    radial-gradient(circle at 80% 10%, rgba(127,174,170,0.1), transparent 25%),
+    radial-gradient(circle at 20% 10%, rgba(201,138,74,0.15), transparent 30%),
+    radial-gradient(circle at 80% 20%, rgba(127,174,170,0.1), transparent 25%),
     linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
-
-  color:white;}  
-  color: var(--white);
-  font-family: "Inter", sans-serif;
 }
+
 
 img {
   display: block;
