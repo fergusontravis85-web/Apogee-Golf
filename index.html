@@ -7,7 +7,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -17,13 +17,13 @@
     <div class="container nav-inner">
       <img src="assets/logo-primary.jpg" alt="Apogee Golf logo" class="logo" />
 
-      <nav class="nav-links">
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Journal</a>
+      <nav>
+        <a href="#featured">Featured</a>
+        <a href="#brand">About</a>
+        <a href="#products">Products</a>
       </nav>
 
-      <a href="#" class="btn btn-outline">Shop Now</a>
+      <a href="#products" class="btn btn-outline">Shop Now</a>
     </div>
   </header>
 
@@ -33,58 +33,68 @@
         <p class="eyebrow">Florida-born golf apparel</p>
         <h1>Play at your peak.</h1>
         <p class="hero-copy">
-          Premium golf apparel shaped by Florida light, coastal movement,
-          and a modern performance mindset.
+          Premium golf apparel shaped by Florida light, coastal movement, and a modern performance mindset.
+          Apogee Golf blends elevated design with the easy confidence of the Space Coast.
         </p>
 
         <div class="hero-buttons">
-          <a href="#" class="btn btn-primary">Shop Collection</a>
-          <a href="#" class="btn btn-ghost">Explore</a>
+          <a href="#products" class="btn btn-primary">Shop Collection</a>
+          <a href="#brand" class="btn btn-ghost">Explore Brand</a>
+        </div>
+
+        <div class="hero-tags">
+          <span>Premium Fit</span>
+          <span>Florida Tested</span>
+          <span>Course to Coast</span>
         </div>
       </div>
 
-      <div class="hero-image">
-        <img src="assets/logo-astronaut.jpg" alt="Apogee Golf astronaut logo" />
+      <div class="hero-image-wrap">
+        <div class="hero-glow"></div>
+        <img src="assets/logo-astronaut.jpg" alt="Apogee Golf astronaut logo" class="hero-image" />
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="featured">
     <div class="container">
-      <h2 class="section-title">Featured Collections</h2>
+      <p class="eyebrow">Featured collections</p>
+      <h2 class="section-title">Built for heat, movement, and presence.</h2>
 
       <div class="grid-3">
         <div class="card">
           <div class="card-img"></div>
           <h3>Performance Polos</h3>
-          <p>Tailored, breathable, built for heat.</p>
+          <p>Tailored silhouettes with breathable stretch for long rounds and warm afternoons.</p>
         </div>
 
         <div class="card">
           <div class="card-img alt"></div>
           <h3>Headwear</h3>
-          <p>Structured, minimal, everyday wear.</p>
+          <p>Clean structured caps with a premium look that works on the course and off it.</p>
         </div>
 
         <div class="card">
           <div class="card-img alt2"></div>
           <h3>Layers</h3>
-          <p>Lightweight performance outerwear.</p>
+          <p>Lightweight outerwear designed for early tee times, wind, and changing weather.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="brand">
+  <section class="brand" id="brand">
     <div class="container brand-grid">
       <div>
+        <p class="eyebrow">The brand</p>
         <h2>Elevated golf apparel from the Space Coast.</h2>
         <p>
-          Apogee Golf creates refined performance apparel for players who want
-          clean design, technical comfort, and unmistakable identity.
+          Apogee Golf creates refined performance apparel for players who want clean design,
+          technical comfort, and unmistakable identity.
         </p>
         <p>
-          Built for movement. Designed for presence.
+          Inspired by Florida’s coastal light and built for modern movement, the brand is designed
+          to feel sharp on the first tee and effortless long after the round ends.
         </p>
       </div>
 
@@ -92,34 +102,56 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="products">
     <div class="container">
-      <h2 class="section-title">Best Sellers</h2>
+      <p class="eyebrow">Best sellers</p>
+      <h2 class="section-title">First drop essentials.</h2>
 
       <div class="grid-4">
         <div class="product">
           <div class="product-img"></div>
           <h3>Launch Polo</h3>
           <span>$88</span>
+          <p>Featherweight stretch knit with a tailored athletic fit.</p>
         </div>
 
         <div class="product">
           <div class="product-img alt"></div>
           <h3>Peak Hat</h3>
           <span>$38</span>
+          <p>Structured crown, clean finish, everyday versatility.</p>
         </div>
 
         <div class="product">
           <div class="product-img alt2"></div>
           <h3>Quarter Zip</h3>
           <span>$118</span>
+          <p>Light layer built for early rounds and cooler evenings.</p>
         </div>
 
         <div class="product">
           <div class="product-img alt3"></div>
           <h3>Dusk Tee</h3>
           <span>$48</span>
+          <p>Soft staple tee featuring the capsule mark and premium feel.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section value-strip">
+    <div class="container value-grid">
+      <div class="value-item">
+        <h3>Premium Fabrics</h3>
+        <p>Built for comfort in heat and humidity.</p>
+      </div>
+      <div class="value-item">
+        <h3>Refined Identity</h3>
+        <p>Clean design with a sharper point of view.</p>
+      </div>
+      <div class="value-item">
+        <h3>Florida Energy</h3>
+        <p>Coastal warmth without the clichés.</p>
       </div>
     </div>
   </section>
@@ -127,8 +159,9 @@
   <section class="email">
     <div class="container email-box">
       <div>
-        <h2>Join the ascent.</h2>
-        <p>Early access to drops and releases.</p>
+        <p class="eyebrow">Join the ascent</p>
+        <h2>Get early access to first releases.</h2>
+        <p>Be first to know about drops, restocks, and new arrivals.</p>
       </div>
 
       <div class="email-form">
